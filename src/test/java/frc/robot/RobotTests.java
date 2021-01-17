@@ -16,7 +16,7 @@ public class RobotTests {
 
     @Before
     public void setup() {
-        System.setOut(new PrintStrea(outputStreamCaptor));
+        System.setOut(new PrintStream(outputStreamCaptor));
         testRobot = new Robot();
     }
 
