@@ -31,18 +31,25 @@ public class RobotTests {
     public void testRobotPeriodicPrintsNumberOfCalls() {
         testRobot.robotPeriodic();
         assertEquals("1", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("2", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("3", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("4", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("5", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("6", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("7", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.robotPeriodic();
         assertEquals("8", outputStreamCaptor.toString().trim());
     }
@@ -58,17 +65,23 @@ public class RobotTests {
         testRobot.autonomousInit();
         testRobot.autonomousPeriodic();
         assertEquals("1,1", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.autonomousPeriodic();
         assertEquals("1,2", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.autonomousPeriodic();
         assertEquals("1,3", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.autonomousInit();
         testRobot.autonomousPeriodic();
         assertEquals("2,1", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.autonomousPeriodic();
         assertEquals("2,2", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.autonomousPeriodic();
         assertEquals("2,3", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
     }
 
     @Test
@@ -82,17 +95,23 @@ public class RobotTests {
         testRobot.teleopInit();
         testRobot.teleopPeriodic();
         assertEquals("1,1", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.teleopPeriodic();
         assertEquals("1,2", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.teleopPeriodic();
         assertEquals("1,3", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.teleopInit();
         testRobot.teleopPeriodic();
         assertEquals("2,1", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.teleopPeriodic();
         assertEquals("2,2", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
         testRobot.teleopPeriodic();
         assertEquals("2,3", outputStreamCaptor.toString().trim());
+        outputStreamCaptor.reset();
     }
 
     @After
