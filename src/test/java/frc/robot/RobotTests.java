@@ -16,7 +16,7 @@ public class RobotTests {
 
     @Before
     public void setup() {
-        System.setOut(new PrintStream(outputStreamCaptor));
+        System.setOut(new PrintStrea(outputStreamCaptor));
         testRobot = new Robot();
     }
 
@@ -74,7 +74,7 @@ public class RobotTests {
     @Test
     public void testTeleopInitPrints() {
         testRobot.teleopInit();
-        assertEquals("Starting Autonomous", outputStreamCaptor.toString().trim());
+        assertEquals("Starting Teleop", outputStreamCaptor.toString().trim());
     }
 
     @Test
