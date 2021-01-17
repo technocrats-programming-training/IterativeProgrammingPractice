@@ -1,0 +1,64 @@
+{
+    "tests": [
+      {
+        "name": "testRobotInitPrints",
+        "setup": "",
+        "run": "./gradlew test --tests frc.robot.RobotTests.testRobotInitPrints",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "testRobotPeriodicPrintsNumberOfCalls",
+        "setup": "",
+        "run": "./gradlew test --tests frc.robot.RobotTests.testRobotPeriodicPrintsNumberOfCalls",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "testAutonomousInitPrints",
+        "setup": "",
+        "run": "./gradlew test --tests frc.robot.RobotTests.testAutonomousInitPrints",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "testAutonomousPeriodicPrintsNumberOfCalls",
+        "setup": "",
+        "run": "./gradlew test --tests frc.robot.RobotTests.testAutonomousPeriodicPrintsNumberOfCalls",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "testTeleopInitPrints",
+        "setup": "",
+        "run": "./gradlew test --tests frc.robot.RobotTests.testTeleopInitPrints",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      },
+      {
+        "name": "testTeleopPeriodicPrintsNumberOfCalls",
+        "setup": "",
+        "run": "./gradlew test --tests frc.robot.RobotTests.testTeleopPeriodicPrintsNumberOfCalls",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      }
+    ]
+  }
